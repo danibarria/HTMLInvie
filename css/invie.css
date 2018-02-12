@@ -2,7 +2,16 @@
 *<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 *font-family: 'Roboto', sans-serif;
 *font-family: 'Poppins', sans-serif;
+*
 */
+
+*{
+	border: 2px solid red;
+	padding: 10px; /*hacia todas las direcciones*/
+
+}	
+
+
 body{
 	font-family: 'Poppins', sans-serif;
 }
@@ -45,3 +54,6 @@ body{
 	/*eran item-list*/
 	display: inline-block;
 }
+
+
+/*margin > border > padding > content*/
