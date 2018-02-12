@@ -35,5 +35,13 @@ body{
 }
 
 .menu{
+	display: inline-block;
 	font-size: 24px;
+}
+.logotipo{
+	display: inline-block;
+}
+.menu li {
+	/*eran item-list*/
+	display: inline-block;
 }
