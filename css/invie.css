@@ -15,83 +15,75 @@ body{
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
-
 .titulo {
 	font-family: 'Roboto', sans-serif;
 	font-size: 70px;
 	margin-bottom: 0px;
 	margin-top: 70px;
 }
-
 .title-a{
 	font-size: 24px;
 	margin-top: 0;
 }
-
 .title-b{
 	font-size: 50px;
 	margin-bottom: 20px;
 }
-
+.guitarra{
+	padding: 10px;
+	margin: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid #1f313c;
+}
+.guitarra ol{
+	padding: 0;
+}
 .guitarras{
 	color: #1f313c;
-
 }
-
 .guitarras h2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 35px;
 }
-
 .portada{
 	background-image: url('../images/background.png');
 	color: white;
 	padding: 20px;
-	
 }
-
 .menu{
 	display: inline-block;
 	font-size: 24px;
-}
-.logotipo{
-	display: inline-block;
+	position: absolute;
+	right: 0;
 }
 .menu li {
 	/*eran item-list*/
 	display: inline-block;
 	margin-left: 30px;
 }
-
+.logotipo{
+	display: inline-block;
+}
 .portada button{
 	margin-bottom: 70px;
 }
 /*margin > border > padding > content*/
 .header{
-		
+	position: relative;
 }
-
 .contenedor{
 	width: 800px;
 	margin: auto;
 }
-
-.guitarra{
-	padding: 10px;
-	margin: 10px;
-	overflow: hidden;
-	border: 1px solid #1f313c;
-}
-.guitarra ol{
-	padding: 0;
-}
-
 .right {
 	float: right;
+	position: relative;
+	top:-127px;
 }
-
 .left{
 	float: left;
+	position: relative;
+	top: 80px;
 }
 .contenedor-guitarra-a{
 	padding-left: 20px;
