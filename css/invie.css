@@ -15,6 +15,13 @@ body{
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
+button{
+	border-radius: 5px;
+	background: #fd324e;
+	color: white;
+	border:none;
+	padding: 9px;
+}
 .titulo {
 	font-family: 'Roboto', sans-serif;
 	font-size: 70px;
