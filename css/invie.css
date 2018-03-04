@@ -275,8 +275,49 @@ input:focus, textarea:focus {
 
 
 @media screen and (max-width: 800px) {
-  body {
-    background: peru;
-    border: 15px solid lightblue;
+  /*.contenedor {
+    width: auto;
+    max-width: 800px;
+  }*/
+  /**portada */
+  .titulo{
+    font-size: 45px;
+    margin-top: 30px;
   }
+  .title-a{
+    font-size: 18px;
+  }
+  .portada{
+    height: auto;
+  }
+  .portada .button{
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+
+  /*guitarras*/
+  .guitarras{
+    text-align: center;
+
+  }
+
+  .izquierda, .derecha{
+    float: none;
+    position:static;  
+  }
+
+  .title-b{
+    margin: 0;
+  }
+  .guitarra li{
+    list-style: none;
+  }
+  .guitarra.b {
+    height: auto;
+  }
+  .contenedor-guitarra-b{
+    position: static;
+    margin: 0;
+  }
+  /*guitarras*/
 }
